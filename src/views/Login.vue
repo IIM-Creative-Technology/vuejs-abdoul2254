@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="">
+    <div class="connexion">
       <label for="Titre de la page">connexion</label
       ><input type="text" /><br /><br />
       <label for="Titre de la page">Mots de Passe</label
@@ -13,3 +13,9 @@
 <script>
 export default {};
 </script>
+<style scoped>
+.connexion {
+  font-size: 22px;
+  text-align: center;
+}
+</style>

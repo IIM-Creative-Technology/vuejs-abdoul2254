@@ -6,12 +6,17 @@
       repudiandae, numquam enim mollitia debitis ab facere unde culpa, vel, quae
       itaque quis voluptatum omnis. Velit vel necessitatibus qui cumque!
     </p>
-    <button>éditer</button>
+    <button>{{ Button }}</button>
   </div>
 </template>
 <script>
 export default {
   name: "blog",
+  data() {
+    return {
+      Button: "Editer",
+    };
+  },
 };
 </script>
 <style scoped>

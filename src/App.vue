@@ -20,6 +20,7 @@
 
 #nav {
   padding: 30px;
+  font-size: 20px;
 }
 
 #nav a {
